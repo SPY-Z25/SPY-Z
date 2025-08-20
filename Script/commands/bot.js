@@ -203,7 +203,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   // ১. নাম
 if ((event.body.toLowerCase() == "তোর নাম কি") || (event.body.toLowerCase() == "তোমার নাম কি")) { 
-  return api.sendMessage("আমার নাম Stella X আমাকে SPY-Z  বানিয়েছে, threadID); 
+  return api.sendMessage("আমার নাম Stella X আমাকে SPY-Z  বানিয়েছে", threadID); 
 };
 
 // ২. কাজ কি করো
