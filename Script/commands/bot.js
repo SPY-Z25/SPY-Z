@@ -211,6 +211,102 @@ if ((event.body.toLowerCase() == "তোমার প্রিয় রং ক�
     return api.sendMessage("পছন্দনীয় রং: কালো 🖤। তথ্য সংরক্ষিত।", threadID);
 };
 
+
+if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "আমি তোমাকে ভালোবাসি") || (event.body.toLowerCase() == "love you")) { 
+    return api.sendMessage("আমাকে না, আমার বস SPY-Z কে বলো 😏", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি সুন্দর") || (event.body.toLowerCase() == "beautiful") || (event.body.toLowerCase() == "সুন্দর")) { 
+    return api.sendMessage("ধন্যবাদ, কিন্তু আমার বস SPY-Z এর কাছে কমপ্লিমেন্ট পাঠাও 🤖", threadID); 
+}
+
+if ((event.body.toLowerCase() == "হাই") || (event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "হ্যালো")) { 
+    return api.sendMessage("হাই! SPY-Z চেক করেছো কি? 😎", threadID); 
+}
+
+if ((event.body.toLowerCase() == "কেমন আছো") || (event.body.toLowerCase() == "how are you") || (event.body.toLowerCase() == "কেমন")) { 
+    return api.sendMessage("আমি ঠিক আছি, কিন্তু আমার বস SPY-Z এর মেজাজ চেক করো 😏", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি কি খেলাধুলা করো") || (event.body.toLowerCase() == "play") || (event.body.toLowerCase() == "খেলো")) { 
+    return api.sendMessage("হ্যাঁ, SPY-Z আমাকে প্র্যাকটিস করাচ্ছে 😎🍟", threadID); 
+}
+
+if ((event.body.toLowerCase() == "কি খাওয়া ভালোবাসো") || (event.body.toLowerCase() == "favorite food") || (event.body.toLowerCase() == "খাবার")) { 
+    return api.sendMessage("আমি সব খাই, SPY-Z এর অনুমোদন দরকার 🍦🍿", threadID); 
+}
+
+if ((event.body.toLowerCase() == "মজা করো") || (event.body.toLowerCase() == "fun") || (event.body.toLowerCase() == "হাসি")) { 
+    return api.sendMessage("মজা MODE: SPY-Z চেকিং 😜😂", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি ঘুমাও কি") || (event.body.toLowerCase() == "sleep") || (event.body.toLowerCase() == "ঘুম")) { 
+    return api.sendMessage("না, SPY-Z আমাকে অনলাইনে রেখেছে 🌙", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি কেমন দেখাও") || (event.body.toLowerCase() == "look")) { 
+    return api.sendMessage("দেখানো সম্ভব নয়, SPY-Z অনুমতি দরকার 😎", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বস কেমন") || (event.body.toLowerCase() == "boss kemon")) { 
+    return api.sendMessage("বস সবসময় মেজাজি 😏 SPY-Z রিপোর্ট: চা কম, হাসি বেশি।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বসের গার্লফ্রেন্ড হবে কি") || (event.body.toLowerCase() == "boss girlfriend")) { 
+    return api.sendMessage("বসের প্রেম জীবন: Classified 😏 SPY-Z চেক: এখনও ফোকাস কাজের উপর।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বস হাসবে কি") || (event.body.toLowerCase() == "boss হাসি")) { 
+    return api.sendMessage("বস হাসি মোড: Rare 😜 SPY-Z রিপোর্ট: মজা করতে হলে চা দিতে হবে।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বস খাচ্ছে কি") || (event.body.toLowerCase() == "boss খাবার")) { 
+    return api.sendMessage("বসের খাবার: Sandwich 🍔 SPY-Z চেক: ডোনাট থাকলে হাসি নিশ্চিত।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বস কি ঘুমাচ্ছে") || (event.body.toLowerCase() == "boss sleeping")) { 
+    return api.sendMessage("বস ঘুম মোড: লেটেড 😴 SPY-Z রিপোর্ট: ঘুম OFF, কাজ ON।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বসের মেজাজ কেমন") || (event.body.toLowerCase() == "boss mood")) { 
+    return api.sendMessage("মেজাজ: unpredictable 😅 SPY-Z রিপোর্ট: আজ হাসি নেই, চা বেশি দরকার।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "বসের গোপন কথা") || (event.body.toLowerCase() == "boss secret")) { 
+    return api.sendMessage("বসের গোপন কথা: Classified 🤫 SPY-Z রিপোর্ট: কেউ যেন না জেনে।", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি বিরক্ত করছো") || (event.body.toLowerCase() == "annoying")) { 
+    return api.sendMessage("না না, SPY-Z চেক করছে শুধু মজা চলছে 😎", threadID); 
+}
+
+if ((event.body.toLowerCase() == "কি করছো") || (event.body.toLowerCase() == "doing")) { 
+    return api.sendMessage("কিছুই না, SPY-Z চেক করছে, হাসি মোড ON 😏", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তোমার নাম কি") || (event.body.toLowerCase() == "name")) { 
+    return api.sendMessage("আমার নাম SPY-Z ব্যাবহারকারী সহায়ক 🤖", threadID); 
+}
+
+if ((event.body.toLowerCase() == "তুমি কত বড়") || (event.body.toLowerCase() == "size")) { 
+    return api.sendMessage("আমি ডিজিটাল, তাই বড় বা ছোট নয় 😎 SPY-Z রিপোর্ট: মজা লেভেল MAX।", threadID); 
+}
+
+if ((event.body == "😂") || (event.body == "🤣") || (event.body == "😆")) { 
+    return api.sendMessage("তুমি হাসছো! 😏 আমি তো কল্পনায় নাচছি 😂", threadID); 
+}
+
+if ((event.body == "😢") || (event.body == "😭")) { 
+    return api.sendMessage("ওহ! দুঃখ পাওয়ার দরকার নেই 😄 এক কাপ কফি আর হাসি ঠিক করবে ☕", threadID); 
+}
+
+if ((event.body == "😍") || (event.body == "🥰") || (event.body == "❤️")) { 
+    return api.sendMessage("ভালোবাসা? 😏 একটু হাসি লাগবে! 😄", threadID); 
+}
+
+
+  
+
 if ((event.body.toLowerCase() == "আজকের আবহাওয়া কেমন?") || (event.body.toLowerCase() == "আজ আবহাওয়া কেমন?") || (event.body.toLowerCase() == "আজকের দিন কেমন যাচ্ছে?") || (event.body.toLowerCase() == "আবহাওয়া কেমন?")) {
     return api.sendMessage("আজকের আবহাওয়া বিশ্লেষণ: মেঘলা। সম্ভাব্য বৃষ্টি। ☁️🌧️", threadID);
 };
